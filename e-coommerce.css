@@ -1,0 +1,615 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2e2e2e;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 9rem;
+    background-color: rgb(214, 3, 3);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+    height: 4rem;
+    margin-top: -0.5rem;
+    position: fixed;
+    z-index: 100;
+}
+
+header h2 {
+    margin-left: -13rem;
+}
+
+
+.logo img{
+    width: 11rem;
+    margin-left: 9rem;
+
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
+
+.navbar a {
+    margin-left: 3rem;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.navbar a:hover {
+    color: #eee;
+    transition: ease-in 0.3s;
+    margin-top: 1rem;
+    border-bottom: 2px solid #eee;
+}
+
+.navbar a.active {
+    color: #eee;
+    border-bottom: 2px solid #eee
+}
+
+.navbar a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.segment1 {
+    padding-left: 4rem;
+    background-color: #2e2e2e;
+    /* width: 99%; */
+    height: 50rem;
+    display: flex;
+
+
+
+
+
+}
+
+.previews {
+    margin-top: -2rem;
+}
+
+.img-preview1 {
+    display: flex;
+    margin-top: 11rem;
+    margin-left: 28em;
+    gap: 1rem;
+
+
+}
+
+.img-view {
+    background-color: blue;
+    width: 90%;
+    height: 12rem;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+}
+
+.img-profile {
+    background-color: blue;
+    width: 90%;
+    height: 3.6rem;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.profile {
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.img-preview2 {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 28em;
+    gap: 1rem;
+}
+
+.profile-card {
+    background-color: red;
+    width: 14rem;
+
+    height: 17rem;
+}
+
+.swiper {
+    width: 24rem;
+    height: 27rem;
+    z-index: 10;
+    margin-top: 9rem;
+    margin-left: 1rem;
+    position: absolute;
+}
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-menu {
+    display: none;
+}
+
+@media(max-width:700px) {
+    body {
+        font-family: "Poppins", sans-serif;
+        margin-left: -0.1rem;
+        /* position: fixed; */
+        margin-top: -0.3rem;
+        /* overflow: hidden; */
+    }
+    .logo img{
+        width: 9rem;
+        margin-left: -1rem;
+        margin-top: -2rem;
+    
+    }
+
+    .nav-menu {
+        display: block;
+        position: absolute;
+    }
+
+    header {
+        display: block;
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: rgb(214, 3, 3);
+        box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+        height: 4rem;
+        margin-top: -0.3rem;
+        position: sticky;
+        z-index: 100;
+    }
+
+    header a h2 {
+        /* width: 1rem; */
+        font-size: 18px;
+    }
+
+    a {
+        color: #eee;
+        text-decoration: none;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 17rem;
+        margin-top: -5rem;
+        position: absolute;
+        color: #eee;
+    }
+
+    .nav-menu {
+        margin-top: -100.2rem;
+        padding-top: 1rem;
+        margin-left: -1rem;
+        background-color: rgba(255, 9, 9, 0.504);
+        position: absolute;
+        width: 360px;
+        transition: all ease-in-out 1.5s;
+        justify-content: end;
+    }
+
+    .slide {
+        margin-top: -2rem;
+    }
+
+
+    .nav-menu a {
+        display: grid;
+        padding-left: 8rem;
+        border-bottom: solid 2px;
+        width: 14rem;
+        z-index: 10;
+
+        margin-top: 2rem;
+        /* justify-content: center; */
+
+    }
+
+    .navbar a {
+        margin-left: 3rem;
+        position: relative;
+        color: black;
+        text-decoration: none;
+        font-weight: 550;
+        display: none;
+    }
+
+
+
+    .segment1 {
+        padding-left: 20px;
+        background-color: #2e2e2e;
+        /* width: 99%; */
+        height: 62rem;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+    .swiper {
+        width: 22rem;
+        height: 29rem;
+        z-index: 10;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        position: absolute;
+    }
+
+    .swiper-slide {
+        /* text-align: center; */
+        font-size: 18px;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .previews {
+        margin-top: 28rem;
+        position: absolute;
+
+    }
+
+    .img-preview1 {
+        display: block;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        gap: 1rem;
+        /* position: absolute; */
+
+
+    }
+
+    .colon {
+        display: none;
+    }
+
+    .img-view {
+        background-color: blue;
+        width: 90%;
+        height: 18rem;
+        margin-left: 5%;
+        margin-top: 1.5rem;
+    }
+
+    .img-profile {
+        background-color: blue;
+        width: 90%;
+        height: 3.6rem;
+        margin-left: 5%;
+        margin-top: 1.5rem;
+        display: flex;
+    }
+
+    .profile {
+        width: 3rem;
+        height: 3rem;
+        background-color: red;
+        border-radius: 100%;
+        margin-left: 0.5rem;
+        margin-top: 0.3rem;
+
+
+    }
+
+    .img-preview2 {
+        display: block;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        gap: 1rem;
+
+    }
+
+    .profile-card {
+        background-color: red;
+        width: 21rem;
+        margin-top: 3rem;
+        height: 25rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.4rem;
+    }
+}
+
+.colon {
+    width: 24rem;
+    height: 7rem;
+    background-color: red;
+    position: absolute;
+    margin-top: 37rem;
+    margin-left: 1rem;
+}
+
+
+.segment2 {
+    color: #eee;
+    height: 31rem;
+    margin-top: -1rem;
+
+
+}
+
+.form {
+    display: flex;
+}
+
+.segment2 h2 {
+    text-align: center;
+}
+
+.segment2 .form1 {
+    background-color: #eee;
+    width: 35rem;
+    height: 18rem;
+    margin-left: 5rem;
+    border-radius: 20px;
+}
+
+.segment2 .form1 .input {
+    border-right: 5px solid #2e2e2e 2px solid;
+    width: 35rem;
+    height: 25rem;
+    background-color: #6d5959;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    margin-top: -rem;
+
+}
+
+.segment2 .form1 .input h3 {
+    margin-top: 0.7rem;
+    margin-left: 7rem;
+}
+
+.segment2 .form1 .input input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.segment2 .form1 .input .mess {
+    width: 31rem;
+    height: 9rem;
+
+}
+
+.form2 {
+    background-color: blue;
+    width: 31rem;
+    margin-left: 5rem;
+    height: 26rem;
+}
+
+@media (max-width:700px) {
+    .segment2 {
+        color: #eee;
+        height: 31rem;
+        margin-top: 145rem;
+
+
+    }
+
+    .form {
+        display: flex;
+    }
+
+    .segment2 h2 {
+        text-align: center;
+    }
+
+    .segment2 .form1 {
+        background-color: #eee;
+        width: 20rem;
+        height: 18rem;
+        margin-left: 0rem;
+        border-radius: 20px;
+    }
+
+    .segment2 .form1 .input {
+        border-right: 5px solid #2e2e2e 2px solid;
+        width: 19.5rem;
+        height: 33rem;
+        background-color: #6d5959;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        margin-top: -rem;
+
+    }
+
+    .segment2 .form1 .input h3 {
+        margin-top: 0.7rem;
+        margin-left: -2rem;
+    }
+
+    .segment2 .form1 .input input {
+        width: 18rem;
+        height: 3rem;
+        border-radius: 20px;
+        border: none;
+        margin-left: 0.3rem;
+        margin-top: 1rem;
+    }
+
+    .segment2 .form1 .input .mess {
+        width: 18rem;
+        height: 9rem;
+
+    }
+
+    .form2 {
+        background-color: blue;
+        width: 31rem;
+        margin-left: 5rem;
+        height: 26rem;
+        display: none;
+    }
+}
+
+.segment3 {
+    height: 30rem;
+}
+
+.segment3 h2 {
+    text-align: center;
+    color: #eee;
+}
+
+.segment3 p {
+    text-align: center;
+    justify-content: center;
+    color: #eee;
+    width: 34rem;
+    margin-left: 22rem;
+}
+
+.cards {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.cards .card1 {
+    background-color: blue;
+    width: 19rem;
+    height: 13rem;
+    margin-left: 4rem;
+}
+
+@media (max-width:700px) {
+    .segment3 {
+        height: 115rem;
+        margin-top: 10rem;
+    }
+
+    .segment3 h2 {
+        text-align: center;
+        color: #eee;
+    }
+
+    .segment3 p {
+        text-align: center;
+        justify-content: center;
+        color: #eee;
+        width: 34rem;
+        margin-left: 22rem;
+    }
+
+    .cards {
+        display: grid;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .cards .card1 {
+        background-color: blue;
+        width: 20rem;
+        height: 17rem;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+.segment4 {
+    display: flex;
+    height: 18rem;
+    background-color: red;
+    margin-top: 4rem;
+}
+
+.video {
+    background-color: #6d5959;
+    width: 34rem;
+}
+
+.segment5 {
+    color: #eee;
+    text-align: center;
+}
+
+.segment5 .swiper {
+    width: 76rem;
+    margin-top: -0rem;
+    position: absolute;
+}
+
+footer {
+    background-color: #000;
+    height: 17rem;
+    /* position: absolute; */
+    margin-top: 28.6rem;
+}
+
+@media (max-width:700px) {
+
+    
+.segment5 {
+    color: #eee;
+    text-align: center;
+}
+
+    .segment5 .swiper {
+        width: 22rem;
+        margin-top: -0rem;
+        position: absolute;
+        margin-left: 0.3rem;
+    }
+    
+    footer {
+        background-color: #000;
+        height: 17rem;
+        /* position: absolute; */
+        margin-top: 28.6rem;
+    }
+}

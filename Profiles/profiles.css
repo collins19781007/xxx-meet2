@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+i{
+    color: red;
+    background-color: blue;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    /* font-size: 50px; */
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.main {
+    width: 68rem;
+    height: 28rem;
+    background: blue;
+    margin-top: 1rem;
+    border-radius: 20px;
+    margin-left: 3.5rem;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.profile-card{
+    background-color: red;
+    width: 15rem;
+    height: 24rem;
+}
+
+.profile-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile-details{
+    background-color: red;
+    border-radius: 20px;
+    width: 29rem;
+    height: 15rem;
+    margin-top: 8rem;
+    color: #eee;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.rate i{
+background-color: transparent;
+color: #eee;
+margin-top: -1rem;
+}
+.rating button{
+height: 2rem;
+width: 9rem;
+border-radius: 15px;
+border: none;
+background-color: blue;
+}
+
+.rating button a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.price-list{
+    background-color: red;
+    width: 12rem;
+    height: 13rem;
+    margin-top: 9rem;
+    color: #eee;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border-radius: 20px;
+    
+
+}
+
+@media(max-width:425px){
+    body {
+        background-color: rgb(255, 0, 0);
+    }
+    i{
+        color: red;
+        background-color: blue;
+        border-radius: 100%;
+        height: 2rem;
+        width: 2rem;
+        /* font-size: 50px; */
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .main {
+        width: 17.6rem;
+        height: 33rem;
+        background: blue;
+        margin-top: 1rem;
+        border-radius: 20px;
+        margin-left:0rem;
+        padding-left: -2rem;
+        padding-top: 2rem;
+        display: block;
+        gap: 3rem;
+    }
+    
+    .profile-card{
+        background-color: red;
+        width: 10rem;
+        height: 14rem;
+        margin-left: -3rem;
+        border-radius: 20px;
+
+    }
+    
+    .profile-card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    .profile-details{
+        background-color: red;
+        border-radius: 20px;
+        width: 18rem;
+        height: 17rem;
+        margin-top: 0.5rem;
+        color: #eee;
+        padding-left: 2rem;
+        margin-left: -3rem;
+        padding-top: 0.5rem;
+    }
+    .rate i{
+    background-color: transparent;
+    color: #eee;
+    margin-top: -1rem;
+    }
+    .rating button{
+    height: 2rem;
+    width: 9rem;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    }
+    
+    .rating button a{
+        color: #eee;
+        text-decoration: none;
+        font-size: 14px;
+    
+    }
+    
+    .price-list{
+        background-color: red;
+        width: 9rem;
+        height: 13rem;
+        margin-top: -32rem;
+        color: #eee;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        border-radius: 20px;
+        margin-left: 7.5rem;
+        font-size: 12px;
+        
+    
+    }
+}
